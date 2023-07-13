@@ -1,0 +1,148 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  background-color: #f2f2f2
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-size: 10px;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header-bg {
+  background-image: url("./assets/header-bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-bg {
+  background-image: url("./assets/eth-bg2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.eth-bg {
+  background-image: url("./assets/crypto-bg2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-bg-gradient {
+  background: rgb(106,41,134);
+  background: linear-gradient(153deg, rgba(106,41,134,1) 0%, rgba(79,96,86,1) 28%, rgba(74,85,136,1) 72%, rgba(2,16,85,1) 100%);
+}
+
+.form-bg-gradient {
+  background: rgb(238, 214, 255);
+  background: linear-gradient(
+    297deg,
+    rgba(238, 214, 255, 1) 0%,
+    rgb(141, 243, 226) 50%
+  );
+}
+
+.button {
+  background: transparent;
+  background-image: linear-gradient(90deg, white, white),
+    linear-gradient(
+      263deg,
+      rgba(22, 230, 189, 1) 0%,
+      rgba(24, 100, 252, 1) 54%,
+      rgb(98, 12, 138) 100%
+    );
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 4px solid transparent;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background: transparent;
+  background-image: linear-gradient(
+      90deg,
+      rgb(104, 22, 129),
+      rgb(22, 230, 189, 1)
+    ),
+    linear-gradient(
+      263deg,
+      rgba(22, 230, 189, 1) 0%,
+      rgba(24, 100, 252, 1) 54%,
+      rgb(104, 17, 131) 100%
+    );
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 4px solid transparent;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.connect-btn-gradient {
+  color: #0000FF;
+  font-size: 16px;
+  font-weight: bold;
+  border: 4px solid;
+  border-image: linear-gradient(#00cea8, #af24dd) 1;
+  animation: animate-border 2.5s ease-in infinite;
+}
+@keyframes animate-border {
+  50% {
+    border-image: linear-gradient(360deg, #00cea8, #af24dd) 1;
+  }
+}
+
+.text-gradient {
+  background: #ffffff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ea69f3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #f678ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-gradient2 {
+  background: #090df0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #fff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #080cf1,
+    #fff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
